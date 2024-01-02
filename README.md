@@ -1,9 +1,9 @@
 # Programming Hero
 ## The codes are from the everyday practice tasks of Programming hero course
 
-*Programming hero is a 6months Web Development course that works on multiples milestones and in each milestone there contains multiple modules.This course aims to build a full stack software developer.*
-**this course teaches**
-1.HTML
+*Programming hero is a 6months Web Development course that works on multiples milestones and in each milestone there contains multiple modules.This course aims to build a full stack software developer.*  
+**this course teaches**  
+1.HTML  
 2.CSS
 3.JS
 4.React js
