@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color:red;
+            background-color: antiquewhite;
+            border:2px solid;
+            border-color:aqua;
+        }
+
+        .border{
+            border-style:ridge;
+            border-width:8px;
+            border-color:cornflowerblue;
+            border-right-style:dotted;
+            border-radius:8px;
+        }
+
+        .margin{
+            background-color:aquamarine;
+            margin-top:80px;
+            margin-left:10px;
+            margin-right:20px;
+            margin-bottom:5px;
+        }
+
+        .padding{
+            background-color:antiquewhite;
+            height:40px;
+            width:500px;
+            border:2px solid blue;
+            padding-left:20px;
+            padding-top:20px;
+            padding-bottom:8px;
+            padding-right:30px;
+        }
+
+        .font{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style:italic;
+            font-weight:lighter;
+            font-size:20px;
+        }
+
+        .fa-cloud{
+            font-size:30px;
+            color:red;
+        }
+
+        .link{
+            font-size:20px;
+            color:blueviolet;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+        }
+
+        .unordered{
+            list-style-type:square;
+        }
+
+        table{
+            border:2px solid black;
+        }
+
+        .a {
+            height:20px;
+            width:200px;
+            background-color: red;
+            display: block;
+        }
+
+        .b{
+           height:20px;
+            width:200px;
+            background-color: blue; 
+            display: block;
+        }
+
+        .c{
+            height:20px;
+            width:200px;
+            background-color: green;
+            display: block;
+        }
+
+        .d{
+            height:20px;
+            width:200px;
+            background-color: red;
+            display:inline;
+        }
+
+        .e{
+            height:20px;
+            width:200px;
+            background-color: blue;
+            display: inline;
+        }
+
+        .f{
+            height:20px;
+            width:200px;
+            background-color: green;
+            display: inline;
+        }
+
+        .g{
+            height:20px;
+            width:200px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        .h{
+            height:20px;
+            width:200px;
+            background-color: blue;
+            display: inline-block;
+        }
+
+        .i{
+            height:20px;
+            width:200px;
+            background-color: green;
+            display: inline-block;
+        }
+
+        .b1{
+            height:20px;
+            width:200px;
+            background-color:aqua;
+            display: inline-block;
+            position:static;
+            top:100px;
+        }
+
+        .b2{
+            height:20px;
+            width:200px;
+            background-color:peru;
+            display: inline-block;
+            /* position:fixed; */
+            bottom:100px;
+        }
+
+        .b3{
+            height:20px;
+            width:200px;
+            background-color:crimson;
+            display: inline-block;
+            position:absolute;
+            top:100px;
+        }
+
+        .b4{
+            height:20px;
+            width:200px;
+            background-color:goldenrod;
+            display: inline-block;
+            position:relative;
+            top:30px;
+        }
+
+        .main{
+            border:2px solid black;
+            height:200px;
+            width:100%;
+            position:relative;
+        }
+
+        .overflo{
+            margin-top:100px;
+            height:90px;
+            width:250px;
+            border:1px solid ;
+            /* overflow:hidden; */
+            overflow:scroll;
+
+        }
+
+
+         
+    </style>
+</head>
+<body>
+    <h1 class="color">Hello Today i'm practising CSS from GFG!</h1>
+    <p class="border">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, praesentium nobis mollitia minima quam veritatis beatae nesciunt minus est distinctio nemo, blanditiis tempore illum. Temporibus quam odit tempora eligendi officiis?</p>
+    <h2 class="margin">I used margin in this text </h2>
+    <p class="padding">Padding is used when the element is inside a box </p>
+    <p class="font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore fugiat quia placeat non ad itaque expedita. Deleniti dicta aliquid nemo itaque ad cumque repudiandae at explicabo, quasi rem aspernatur repellat.</p>
+    <p class="icon">Now it's time to manipulate icons</p><i class="fa fa-cloud"></i><br>
+    <a href="https://www.geeksforgeeks.org/" class="link">Ii'm learning this from GFG!</a>
+    <h2>Now let's work with LISTS!</h2>
+    <ul class="unordered">
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <h2>Now let's explore the display:block property</h2>
+    <div class="main">
+        <div class="a">block 1</div>
+        <div class="b">block 2</div>
+        <div class="c">block 3</div>
+    </div>
+    <h2>Now let's explore the display:inline property</h2>
+    <div class="main">
+        <div class="d">block 1</div>
+        <div class="e">block 2</div>
+        <div class="f">block 3</div>
+    </div>
+    <h2>Now let's explore the display:inline-block property</h2>
+    <div class="main">
+        <div class="g">block 1</div>
+        <div class="h">block 2</div>
+        <div class="i">block 3</div>
+    </div>
+    <h2>Now let's explore the Position property</h2>
+    <div class="main">
+        <div class="b1">static</div>
+        <div class="b2">block 2</div>
+        <div class="b3">block 3</div>
+        <div class="b4">block 4</div>
+    </div>
+    <h2>Time to explore the overflow property:</h2>
+    <p class="overflo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id commodi ad itaque magnam voluptas quasi quod modi officiis, placeat quos aspernatur, cum quo nam quisquam! Delectus provident odio assumenda adipisci!</p>
+
+
+</body>
+</html>
