@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    background-color: burlywood;
+}
+
+#signup{
+    height:400px;
+    width:300px;
+    background-color:cornflowerblue;
+    margin:200px;
+    margin-left:550px;
+    border-radius: 10px;
+    box-shadow: 2px 5px black;
+}
+
+.form{
+    padding-top:80px;
+    padding-left:60px;
+    padding-bottom: 40px;
+    /* background-color: red;  */
+}
+
+.email1{
+    /* background-color: red; */
+    height:20px;
+    /* margin-bottom: 20px; */
+    color: aliceblue
+}
+
+.name{
+    font-size:20px;
+}
+
+.input_email{
+    margin-top: 10px;
+    /* background-color: aqua; */
+}
+
+.password{
+    margin-top: 45px;
+}
+
+.pass{
+    font-size: 20px;
+    color:aliceblue
+}
+
+.password1{
+    margin-top: 8px;
+}
+
+.signup_btn_container{
+    margin-top: 35px;
+    /* margin-left:6px; */
+}
+
+.icons{
+    margin-left:120px
+}
+
+input{
+    height:20px;
+    width:200px;
+    border-radius: 5px;
+}
+
+.signup_btn{
+    width:200px;
+    text-align: center;
+    height:35px;
+    border-radius: 5px;
+    color:white;
+    background-color:darkorange;
+    font-size: 15px;
+}

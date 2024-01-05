@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 5px 10px;
+      }
+
+      .dropdown{
+        display:none;
+        position:absolute;
+        background-color: aquamarine;
+        padding-left:10px;
+      }
+
+      nav li:hover >.dropdown{
+        display:block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <h2>created nav section</h2>
+            <ul >
+                <li><a href="day5.html">day 5 </a></li>
+                <li><a href="day5_2.html">day 5-2</a>
+                  
+            <ul class="dropdown">
+                <li><a href="day5.html">day 5 </a></li>
+                <li><a href="day5_2.html">day 5-2</a>
+                <ul class="dropdown">
+                <li><a href="day5.html">day 5 </a></li>
+                <li><a href="day5_2.html">day 5-2</a></li>
+                <li><a href="day5_3.html">day 5 -3</a> </li>
+                
+            </ul>
+                </li>
+                <li><a href="day5_3.html">day 5 -3</a> </li>
+                
+            </ul>
+                </li>
+                <li><a href="day5_3.html">day 5 -3</a> 
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>HTML Table</h1>
+    <table>
+      <caption>
+        My made table
+      </caption>
+      <thead>
+        <tr>
+          <th>no</th>
+          <th>name</th>
+          <th>dollar</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>bill gates</td>
+          <td>1000$</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Steve jobs</td>
+          <td>500$</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colaspan="2">Total Employee=4</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul>
+      <li>table:table</li>
+      <li>table head:thead</li>
+      <li>table body:tbody</li>
+      <li>table footer:tfoot</li>
+      <li>table row:tr</li>
+      <li>table data:td</li>
+    </ul>
+     </main>
+  </body>
+
+</html>

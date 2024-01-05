@@ -1,0 +1,31 @@
+#first{
+    background-color: red;
+    
+}
+
+.icons{
+    /* background-color: red; */
+    width:80px;
+    height:30px;
+    padding-top:4px;
+}
+
+.fa-building{
+    /* display:inline-block;  */
+    color:red;
+}
+
+.icon-name{
+    display:inline;
+}
+
+.kart{
+    font-weight: bolder;
+    font-size:20px;
+}
+
+.search-device{
+    width:300px;
+    height:35px;
+    display:inline;
+}
