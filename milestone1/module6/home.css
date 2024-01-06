@@ -1,0 +1,186 @@
+#first {
+    background-color: red;
+
+}
+
+.icons {
+    /* background-color: red; */
+    width: 80px;
+    height: 30px;
+    padding-top: 4px;
+}
+
+.fa-building ,.fa-solid {
+    /* display:inline-block;  */
+    color:black;
+}
+
+.icon-name {
+    display: inline;
+}
+
+.kart {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.search-device {
+    width: 300px;
+    height: 35px;
+    display: inline;
+}
+
+.location{
+    margin-top: 20px;
+    width:150px;
+    height:30px;
+    border:1px dotted black;
+}
+
+.fa-location-dot{
+    display:inline;
+    
+}
+
+.delivery_no{
+    display:inline;
+}
+
+.menus ul li{
+    display:inline;
+    list-style:none;
+    margin-right:40px;
+    color:black;
+}
+
+.menus a{
+    text-decoration: none;
+}
+
+.dropdown{
+    display:none;
+    position:absolute;
+
+}
+
+nav li:hover >.dropdown{
+    display:block;
+}
+
+.call{
+    margin-top:10px;
+    border:1px dotted black;
+    width:150px;
+    height:25px;
+}
+
+nav{
+    display:inline;
+}
+
+
+.market_img{
+    margin-top:40px;
+    height:500px;
+    width:100%;
+    background-size: cover;
+}
+
+.img_section{
+    position:relative;
+}
+
+.txt{
+    position:absolute;
+    top:200px;
+    margin-left:800px;
+    color:white;
+}
+
+.shopbtn{
+    background-color: red;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    
+}
+
+.shopbtn a{
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
+
+
+.product_img{
+    margin-top:40px;
+    margin-left:60px;
+}
+
+.veg , .dairy , .meat , .care , .clean , .noodle , .pet , .tea{
+    background-color:antiquewhite;
+    height:100px;
+    width:70px;
+    display:inline-block;
+    margin-right:60px;
+}
+.veg_img{
+    height:40px;
+    width:50px;
+    background-size: contain;
+   padding-top:10px;
+}
+
+.veg_p{
+    padding-bottom:10px;
+}
+
+.cashback{
+    margin-top:50px;
+    
+}
+.cashback_img{
+   margin-left:50px;
+    display: inline-block;
+}
+
+.cash_img{
+    position:relative;
+}
+
+.bag{
+    height:300px;
+    width:400px;
+    background-size: cover;
+}
+
+.cash-text{
+    position:absolute;
+    top:1200px;
+    margin-left:250px;
+    color:white;
+}
+
+.tomato{
+    /* background-color: red; */
+    /* width:150px;
+    height:190px; */
+    display:inline-block;
+    margin-right:10px;
+}
+
+.tomtato_pic{
+    width:80px;
+
+}
+
+.price{
+    display:inline;
+}
+
+.fa-plus{
+    
+    margin-left:80px;
+}
+
+
