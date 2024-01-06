@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:ital,wght@1,300&family=Urbanist:wght@300;500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.hero{
+    background-image:url('/assets/images/sea.jpg');
+    height:100vh;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    color:darksalmon;
+    font-size:100px;
+    text-align:center;
+    font-weight:800;
+    padding-top:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 20px;
+}
+
+.article{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:60px;
+    margin-bottom:100px;
+    background-color: antiquewhite;
+    padding:60px;
+    border:5px dotted black;
+    background: linear-gradient(pink,white);
+}
+
+.article h2 , .resort h2{
+    text-align: center;
+    margin-bottom:20px;
+    border:2px solid black;
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    
+}
+
+.article p{
+    font-size:18px;
+    line-height:2em;
+}
+
+.resort{
+    width:80%;
+    margin-top:60px;
+}
+
+.resort-img{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    flex-wrap:no-wrap;
+}
+
+.resort-img div{
+    min-width:300px;
+    height:150px;
+}
+
+.resort-img img{
+    width:100%;
+}
