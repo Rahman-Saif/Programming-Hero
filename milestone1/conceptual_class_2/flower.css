@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.parent{
+    width:75%;
+    /* background-color: red; */
+    margin:0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.child1{
+    max-width:705px;
+    /* background-color: yellow; */
+}
+
+.sobarh2{
+    color: #272727;
+    
+        font-family:Lato;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 800;
+}
+
+.sobarp{
+    color: rgba(39, 39, 39, 0.60);
+    
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin:30px 0px;
+}
+
+.sobarbtn{
+border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        border:0;
+        padding: 20px 43px;
+}
+
+.child2{
+    margin-top:50px;
+    max-width: 640px;
+}
+
+.first-section{
+    width:75%;
+    max-width:1650px;
+    margin:0px auto;
+    /* background-color: red; */
+    margin-top:150px;
+}
+
+.main-text{
+    text-align: center;
+    /* width:590px; */
+}
+
+.asolh2{
+    color: #272727;
+    
+        text-align: center;
+        font-family: Lato;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+}
+
+.main-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:24px;
+    margin-top:48px;
+}
+
+.wing-6 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.wing-6 img{
+    max-width:310px;
+    margin-bottom:0px;
+}
+
+.wing-5 img {
+    max-width:370px;
+}
+
+.wing-7 img {
+    max-width:314px;
+}
+
+.wing-5{
+border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.wing-7{
+border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.main-images a{
+    display: block;
+    color: #272727;
+        text-align: center;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        text-decoration-line: underline;
+}
+
+.second-section{
+    width:75%;
+    margin:0px auto;
+    margin-top:150px;
+    
+}
+
+.second-section .parent{
+    margin:86px 175px;
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 8px;
+            background: rgba(39, 39, 39, 0.05);
+            text-align: center;
+}
+
+.second-section .child2{
+    margin-top:0;
+}
+ 
+.third-section{
+    max-height:620px;
+    margin-top:130px;
+
+}
+
+.third-section .parent{
+    margin:100px auto;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:180px;
+}
+
+.third-section .child1{
+    text-align: center;
+}
+
+.third-section img{
+    max-width: 320px;
+    margin-right:150px;
+}
+
+.fourth-section{
+    width:75%;
+    margin:0 240px;
+}
+
+.fourth-section .text{
+    text-align: center;
+}
+
+.fourth-section .images{
+    display: flex;
+    align-items: center;
+    gap:24px;
+    justify-content: space-between;
+}
+
+.fifth-section{
+    width:75%;
+    margin:150px 240px;
+    max-height: 600px;
+    position:relative;
+    /*  */
+}
+
+.fifth-section .text{
+    position: absolute;
+    top:122px;
+    left:287px;
+    text-align: center;
+    align-items: center;
+}
+
+.fifth-section input{
+    width: 700px;
+        height: 64px;
+        border-radius: 8px;
+            background: #FFF;
+            border:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
