@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+    <style>
+        .box{
+            border:2px solid pink;
+        }
+
+        .ring{
+            position:relative;
+            left:150px;
+            top:-40px;
+        }
+
+        /* .ring{
+            position:absolute;
+        } */
+
+        .dummy{
+            border:2px solid black;
+            width:200px;
+            height:300px;
+        }
+
+        .water{
+            position:sticky;
+            top:10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h3>css position</h3>
+    <ol>
+        <li>Static:eita hocche default position behaviour!.Usual text or something jei position e thake setai static positioning</li>
+        <li>Relative: eitate div er nijer position ta bojay thake..tobe eitake dane bame neya jay..but eitar jei poriman height or width ache seita 
+            ekdom same to same setai thakbe
+        </li>
+        <li>Absolute:eitate nijer kono position or obosthan thakbe na..sojha bangly er payer tola nai..eitake jar mon chay tar upore boshay deya jay
+            jemon ekta div er position jodi absolute koira dei,taile tar height,width thakbe but website e kono place dokhol korbe na,tokhon tar jaygay 
+            nicher div ta aeisa porte parbe..ar jehetu eitar kono tola nai website e ,tai eitake onno jekono image or div er upor boshano jay
+        </li>
+        <li>Fixed:ei bandare jodi konokhane rakhte chai taile ekdom same to same oi jaygatei boisha jay</li>
+        <li>Sticky: ei banda fixed er motoi ,jeikhane boshaite chamu oikhanei boisha jaibo.but difference hocche eita tar parent er 
+            size onujayi kaj kore..i mean parent er height or width er baire jabe na!
+        </li>
+    </ol>
+    <div class="swim-container">
+        <div class="box boy ">
+            <img src="a.jpg" alt="" width="400px">
+        </div>
+        <div class="box ring">
+            <img src="https://c-ap.niceshops.com/upload/image/product/large/default/12332_a02b1bba.jpg" alt="" width="200px">
+        </div>
+        <div class="box water">
+            <img src="https://static.wixstatic.com/media/8b7a79_b194e856195845ae8cb69bde57fa9079~mv2.jpg/v1/fill/w_640,h_428,al_t,q_80,usm_0.66_1.00_0.01,enc_auto/8b7a79_b194e856195845ae8cb69bde57fa9079~mv2.jpg" alt="" width="200px">
+        </div>
+        </div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+        <div class="dummy"></div>
+    
+</body>
+</html>
