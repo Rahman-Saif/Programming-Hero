@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            /* for centering items 
+            justify-content: center;
+            align-items: center;
+            height:500px;
+            width:800px;
+            border:1px solid black; */
+        }
+
+        nav ul li{
+            list-style: none;
+        }
+
+        nav ul li {
+            font-size:24px;
+            color:slateblue;
+        }
+
+        .card-container{
+            width:100%;
+            height:600px;
+            /* border:1px solid black; */
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+
+        .card-1{
+            width:300px;
+            height:400px;
+            border:1px solid black;
+        }
+
+        .card-1 img{
+            width:200px;
+            height:200px;
+        }
+        .div-container{
+            display:flex;
+            
+            
+        }
+
+        
+
+        .div1,.div2,.div3{
+            height:100px;
+            width:100px;
+            border:1px solid black;
+            
+        }
+
+        .div2{
+            flex-grow: 2;
+        }
+    </style>
+    <link rel="stylesheet" href="flex.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Product</li>
+                <li>About us</li>
+                <li>Blog</li>
+                <li>Profile</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cards using Flexbox:</h2>
+        <section class="card-container">
+            <div class="card-1">
+                <img src="https://media.wired.com/photos/6511aab1189c419c40374c92/1:1/w_1358,h_1358,c_limit/Apple-Watch-Ultra-2-Alt-Gear.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dolor modi ex porro maiores hic quis odio qui soluta quae similique deleniti, repellat rem adipisci amet iste optio laborum facere.</p>
+                <button>Buy </button>
+            </div>
+            <div class="card-1">
+                <img src="https://d3cd3hu9wl72jo.cloudfront.net/1.d/preview/e/0/e0aad59d_7f887146_MY_Apple_Watch_Ultra_2_LTE_49mm_Titanium_Blue_Alpine_Loop_PDP_Image_Position-1.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium, ut! Repellat neque porro culpa impedit earum fuga, inventore quae nemo sunt pariatur. Repellat exercitationem nesciunt ratione quasi quae, necessitatibus quas.</p>
+                <button>Buy </button>
+            </div>
+            <div class="card-1">
+                <img src="https://www.zdnet.com/a/img/resize/555df432d8834213ff1a9577d60b42e4acd7f6ad/2023/09/13/7b4446f4-c204-4e26-991f-cba6241049ff/apple-watch-ultra-2-2.jpg?auto=webp&fit=crop&height=900&width=1200" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, et eaque aspernatur error ullam deserunt hic at iste aperiam officiis quibusdam odio dolore cupiditate quis aliquid corrupti sapiente officia nulla?</p>
+                <button>Buy </button>
+            </div>
+            <div class="card-1">
+                <img src="https://www.zdnet.com/a/img/resize/555df432d8834213ff1a9577d60b42e4acd7f6ad/2023/09/13/7b4446f4-c204-4e26-991f-cba6241049ff/apple-watch-ultra-2-2.jpg?auto=webp&fit=crop&height=900&width=1200" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, et eaque aspernatur error ullam deserunt hic at iste aperiam officiis quibusdam odio dolore cupiditate quis aliquid corrupti sapiente officia nulla?</p>
+                <button>Buy </button>
+            </div>
+            <div class="card-1">
+                <img src="https://www.zdnet.com/a/img/resize/555df432d8834213ff1a9577d60b42e4acd7f6ad/2023/09/13/7b4446f4-c204-4e26-991f-cba6241049ff/apple-watch-ultra-2-2.jpg?auto=webp&fit=crop&height=900&width=1200" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, et eaque aspernatur error ullam deserunt hic at iste aperiam officiis quibusdam odio dolore cupiditate quis aliquid corrupti sapiente officia nulla?</p>
+                <button>Buy </button>
+            </div>
+        </section>
+        <section class="new-flex">
+            <div class="div-container">
+                <div class="div1">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eum, inventore nostrum fugiat quibusdam quod ea et nemo in sequi atque, magnam beatae quasi, nihil esse officiis? Nesciunt, ipsam et!</p>
+                </div>
+                <div class="div2">
+                    <p>Perspiciatis in sed porro repudiandae, quae iusto. Illum sunt repellat repudiandae itaque est obcaecati praesentium? Mollitia est nisi, deleniti officiis maxime molestiae exercitationem, harum saepe ea, minus quaerat sunt recusandae!</p>
+                </div>
+                <div class="div3">
+                    <p>Praesentium provident repellendus ratione. Tenetur adipisci aliquam perferendis officia asperiores. Quam fuga vero iste excepturi voluptates ex, aliquam quos magni id quia debitis architecto vel esse at aut corrupti delectus!</p>
+                </div>
+            </div>
+        </section>
+        <section class="grid-flex">
+            <div class="grid-container">
+                <div class="div-1 item">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eum, inventore nostrum fugiat quibusdam quod ea et nemo in sequi atque, magnam beatae quasi, nihil esse officiis? Nesciunt, ipsam et!</p>
+                </div>
+                <div class="div-2 item">
+                    <p>Perspiciatis in sed porro repudiandae, quae iusto. Illum sunt repellat repudiandae itaque est obcaecati praesentium? Mollitia est nisi, deleniti officiis maxime molestiae exercitationem, harum saepe ea, minus quaerat sunt recusandae!</p>
+                </div>
+                <div class="div-3 item">
+                    <p>Praesentium provident repellendus ratione. Tenetur adipisci aliquam perferendis officia asperiores. Quam fuga vero iste excepturi voluptates ex, aliquam quos magni id quia debitis architecto vel esse at aut corrupti delectus!</p>
+                </div>
+                <div class="div-4 item">
+                    <p>Perspiciatis in sed porro repudiandae, quae iusto. Illum sunt repellat repudiandae itaque est obcaecati praesentium? Mollitia est nisi, deleniti officiis maxime molestiae exercitationem, harum saepe ea, minus quaerat sunt recusandae!</p>
+                </div>
+                <div class="div-5 item">
+                    <p>Praesentium provident repellendus ratione. Tenetur adipisci aliquam perferendis officia asperiores. Quam fuga vero iste excepturi voluptates ex, aliquam quos magni id quia debitis architecto vel esse at aut corrupti delectus!</p>
+                </div>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="box-1"></div>
+            <div class="box-1"></div>
+            <div class="box-1"></div>
+            <div class="box-1"></div>
+            <div class="box-1"></div>
+            <div class="box-1"></div>
+        </section>
+    </main>
+</body>
+</html>
