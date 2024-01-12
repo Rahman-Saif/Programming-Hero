@@ -1,0 +1,16 @@
+.upper-footer{
+    border:1px solid red;
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.upper-footer >div{
+    /* border:1px solid green; */
+    width:23%;
+    padding:20px;
+    flex-basis:200px;
+}

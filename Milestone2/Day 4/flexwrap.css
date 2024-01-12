@@ -1,0 +1,38 @@
+html{
+    font-size:16px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:80%;
+    margin:0 auto;
+    background-color:antiquewhite;
+}
+
+img{
+    max-width:100%;
+    margin-top:1rem;
+    margin-bottom:1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.columns{
+    display:flex;
+    margin-bottom:1.5rem;
+    /* align-items: center; */
+    justify-content: space-around;
+    gap:1.5rem;
+}
+
+.col1 ,.col3{
+    width:25%;
+}
+
