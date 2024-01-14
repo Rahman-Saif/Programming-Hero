@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:steelblue;
+            --font-size:16px;
+            --secondary-color:red;
+        }
+        h1{
+            color:var(--primary-color);
+        }
+
+        h3{
+            background-color:var(--secondary-color);
+        }
+
+        .box{
+            border:2px solid red;
+            width:calc(100% - 300px);
+        }
+
+        .box p{
+            color:blue;
+        }
+
+        .container{
+            display:grid;
+            gap:20px;
+            grid-template-columns: 200px calc(100% - 200px);
+        }
+
+        .sidebar{
+            background-color: lightblue;
+        }
+
+        .content{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Customer Properties</h1>
+    <h3>Also common as CSS variables:</h3>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nihil? Cupiditate expedita itaque, assumenda ut laborum atque tempora provident, dicta voluptatum quisquam nobis reprehenderit reiciendis. Itaque nisi sit nemo commodi.</p>
+    </div>
+    <div class="container">
+        <div class="sidebar">sidebar</div>
+        <div class="content">content</div>
+    </div>
+</body>
+</html>

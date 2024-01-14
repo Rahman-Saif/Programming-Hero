@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+html{
+    font-size: 10px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding:5rem 24rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav >ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right:3rem;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.6rem;
+}
+
+.nav-title{
+    color: var(--Dark-01, #131313);
+    /* text-align: center; */
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-content{
+    margin-top:12rem;
+    text-align: center;
+    max-width:86rem;
+    margin:12rem auto;
+}
+
+.banner-title{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.banner-description{
+    color: var(--Dark-03, #727272);
+    /* text-align: center; */
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:2.6rem;
+    margin-top:2.5rem;
+}
+
+.banner-btn{
+    padding:2.2rem;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top:3rem;
+    border:0;
+    cursor: pointer;
+}
+
+.banner img{
+    /* max-width:144rem; */
+    max-width:100%;
+    object-fit: cover;
+}
+
+
+main{
+    max-width:140rem;
+    margin:0 auto;
+    /* background-color: red; */
+}
+
+.teams-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10rem 10rem;
+    gap: 6rem;
+
+}
+
+.teams-img-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+
+.teams-text-container h2{
+    color: var(--Dark-03, #727272);
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+.off{
+    color: var(--Dark-01, #131313);
+    font-size: 4.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.feature{
+    color: #FF900E;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.teams-text-container p{
+    color: var(--Dark-03, #727272);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
+
+.facts .card{
+    border-radius: 8px;
+        border: 1px solid #FF900E;
+        text-align: center;
+        padding:3rem 7rem;
+        margin-top:10rem;
+}
+
+.facts-card-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:18rem;
+}
+
+.card-stats{
+    font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 600;
+}
+
+.card-title{
+    font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+}
+
+.sponsors{
+    text-align: center;
+}
+
+.sponsor-image-container{
+    display:flex;
+    justify-content: space-around;
+    margin:5rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sponsor-image-container img{
+    width:16.5rem;
+    
+}
+
+.feature-image img{
+    margin-left: 50px;
+}
+
+.features{
+    margin-top:13rem;
+    display:flex;
+    gap:13rem;
+}
+
+.feature-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding:3rem;
+    margin-bottom:2rem;
+}
+
+.feature-card-title{
+    color: var(--Dark-01, #131313);
+        font-family: Work Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+}
+
+.feature-title{
+    color: var(--Dark-01, #131313);
+        font-family: Work Sans;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        border-left:5px solid black;
+        padding-left:20px;
+}
+
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    height:20rem;
+    width:34rem;
+    color:white;
+    text-align: center;
+    position:relative;
+    bottom:12rem;
+}
+
+.ten-years-badge h2{
+        color: #FFF;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        
+}
+
+.ten-years-badge p{
+        color: #FFF;
+        font-family: Work Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+}
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    header{
+        padding:2rem 5rem;
+    }
+    .teams-container{
+        flex-direction: column;
+    } 
+   
+
+    
+}
+
+@media screen and (max-width:576px){
+    nav {
+            flex-direction: column;
+            gap:2rem;
+        }
+        header{
+            padding:1rem 2rem;
+        }
+        .banner-content{
+            margin-top:2rem;
+        }
+
+       .teams-container {
+        flex-direction: column;
+        margin:10rem 2rem;
+       }
+
+       .teams-img-container{
+        grid-template-columns: repeat(1, 1fr);
+       }
+
+       .teams-text-container{
+        text-align: center;
+       }
+       .facts-card-container{
+            flex-direction: column;
+            gap:2rem;
+       }
+
+       .sponsor-image-container{
+        flex-direction: column;
+        gap:7rem;
+        
+       }
+
+       .features{
+        flex-direction: column;
+       }
+
+       .feature-image img{
+        width:90%;
+       }
+}

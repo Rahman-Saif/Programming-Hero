@@ -1,0 +1,12 @@
+button{
+    width:400px;
+    height:400px;
+    background-color: antiquewhite;
+    margin:200px;
+    transition:all .5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: red;
+    border:30px solid green;
+}

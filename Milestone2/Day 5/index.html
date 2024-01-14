@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid Layout</title>
+    <link rel="stylesheet" href="base.css" />
+    <style>
+      /* .container{
+        display:grid;
+        grid-template-columns:repeat(3,1fr) ;
+        /* grid-template-rows: 200px 200px; */
+        /* grid-row-gap:5px;
+        grid-column-gap:5px; */
+        /* grid-template-rows: 2fr 3fr; */
+        /* grid-template:2fr 3fr/1fr 2fr 1fr; */
+        /* gap:5px; */
+
+      /* } */ 
+
+      .container{
+        height:100%;
+        display:grid;
+        grid-template-columns:repeat(5,90px);
+        grid-template-rows: repeat(2,90px);
+        grid-auto-rows:1fr;
+        /* justify-items:center;
+        align-items: center; */
+      }
+      .t{
+        justify-self: center;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="">1</div>
+      <div class="">2</div>
+      <div class="">3</div>
+      <div class="t">4</div>
+      <div class="">5</div>
+      <div class="">6</div>
+      <div class="">7</div>
+      <div class="">8</div>
+      <div class="">9</div>
+      <div class="">10</div>
+    </div>
+  </body>
+</html>
