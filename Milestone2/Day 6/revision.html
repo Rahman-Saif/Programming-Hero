@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .before::before{
+            content:"i'm MR.Before!";
+            color:red;
+        }
+
+        .after::after{
+            content:"and i'm MR.After!";
+            color:green;
+            font-size:20px;
+        }
+
+        .selection::selection{
+            background-color: red;
+            color:white;
+            
+        }
+
+        .hover:hover{
+            color:red;
+        }
+
+        input:focus{
+            border:2px solid green;
+        }
+
+        a:active{
+            color:green;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Let's first revise pseudo class of css</h1>
+    <p class="before">Hello</p>
+    <p class="after">Sir</p>
+    <p class="selection">ma'am</p>
+    <p class="hover">i'm hover</p>
+    <input type="text " placeholder="hello">
+    <a href="www.google.com">google</a>
+</body>
+</html>
+
+<!-- pseudo class = :
+hover
+active
+input:focus 
+pseudo element = ::
+after:: 
+before::
+selection:: -->
