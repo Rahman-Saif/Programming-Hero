@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800;900&display=swap" rel="stylesheet">
+<style>
+    .font-poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+</head>
+<body class="font-poppins text-white">
+    <header class="md:container md:mx-auto">
+        <nav>
+            <div class="navbar bg-base-100">
+  <div class="flex-1">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="0" class="menu menu-sm text-base dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>Home</a></li>
+        <li>
+          <a>Shop</a></li>
+            <li><a>News</a></li>
+            <li><a>Content</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-4xl">Biker Zone </a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 text-base">
+      <li><a>Home</a></li>
+        <li>
+          <a>Shop</a></li>
+            <li><a>News</a></li>
+            <li><a>Content</a></li>
+    </ul>
+  </div>
+  <div class="navbar-end w-auto">
+    <button class="btn btn-error">Error</button>
+  </div>
+</div>
+        </nav>
+        <!-- slider carousal -->
+        <div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full lg:h-[550px]">
+    <div class="flex flex-col lg:flex-row p-4 lg:p-24 gap-20">
+        <div class="space-y-7 flex-1">
+            <h2 class="text-6xl font-bold ">Ride-on R15 V4 <br>With Smile </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos ducimus vel earum quasi repellat, consequatur tempore dolorum, accusamus incidunt ipsum dolorem omnis nobis et quod labore itaque. Ratione, eos corrupti!</p>
+            <button class="btn btn-error">Purchase</button>
+        </div>
+        <div>
+            <img src="images/slider/bike1.png" class="w-[400px] flex-1" />
+        </div>
+    </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="images/slider/bike2.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full">
+    <img src="images/slider/bike3.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide2" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full">
+    <img src="images/slider/bike4.png" class="w-full" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div>
+</div>
+    </header>
+    <main class="md:container md:mx-auto">
+        <section class="featured-bike">
+
+        </section>
+        <section class="latest-news my-24">
+            <h3 class="text-5xl font-semibold text-center">Latest News</h3>
+            <div class="grid grid-cols lg:grid-cols-3 gap-5">
+                <div class="card w-96 bg-base-100 shadow-xl">
+  <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title text-3xl">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+            
+            <div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+  <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title text-3xl">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+            </div>
+            
+                <div class="card w-96 bg-base-100 shadow-xl">
+  <figure><img src="./images/others/latest1.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title text-3xl">Shoes!</h2>
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="card-actions">
+      <button class="btn btn-primary">Buy Now</button>
+    </div>
+  </div>
+</div>
+            </div>
+        </section>
+        <section class="happy-clients">
+            <h3 class="text-5xl font-semibold text-center">Client Says</h3>
+            <div class="grid grid-cols lg:grid-cols-3 gap-20">
+                <div class="card w-96 bg-base-100 shadow-xl p-9 border border-gray-400">
+  <figure><img src="/images/others/user-1.png " class="w-36" alt="Shoes" /></figure>
+  <div class="card-body">
+    <!-- <h2 class="card-title">Shoes!</h2> -->
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="rating justify-center">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 checked" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+    <div class="text-center space-y-4 ">
+      <p>Pondit </p>
+      <h4 class="text-sm font-bold">Banker</h4>
+    </div>
+  </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl p-9 border border-gray-400">
+  <figure><img src="/images/others/user-1.png " class="w-36" alt="Shoes" /></figure>
+  <div class="card-body">
+    <!-- <h2 class="card-title">Shoes!</h2> -->
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="rating justify-center">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 checked" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+    <div class="text-center space-y-4 ">
+      <p>Pondit </p>
+      <h4 class="text-sm font-bold">Banker</h4>
+    </div>
+  </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl p-9 border border-gray-400">
+  <figure><img src="/images/others/user-1.png " class="w-36" alt="Shoes" /></figure>
+  <div class="card-body">
+    <!-- <h2 class="card-title">Shoes!</h2> -->
+    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <div class="rating justify-center">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400 checked" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+    <div class="text-center space-y-4 ">
+      <p>Pondit </p>
+      <h4 class="text-sm font-bold">Banker</h4>
+    </div>
+  </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq my-24">
+            <div class="hero min-h-screen bg-base-200">
+  <div class="hero-content flex-col lg:flex-row-reverse">
+    <img src="/images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+    <div>
+      <h1 class="text-5xl font-bold">Box Office News!</h1>
+      <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+  <input type="radio" name="my-accordion-2" checked="checked" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow bg-base-200">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow bg-base-200">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
