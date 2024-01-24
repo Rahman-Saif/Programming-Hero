@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<!-- 
+    ja ja sikhtesi
+    1.2ta section same width rakhar jonne padding same use kora
+    2.linear gradient er jonne background image use kore 
+
+
+
+
+     -->
+    <div class="container mx-auto px-8 lg:px-24 my-8">
+    <div class="navbar bg-red-400 rounded-full px-8">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li><a>Home</a></li>
+        <li><a>About</a></li>
+        <li><a>Shop</a></li>
+        <li><a>Contact</a></li>
+        
+      </ul>
+    </div>
+    <div class="space-x-4 text-white font-semibold text-lg">
+        <a href="#">Home</a>
+        <a href="">About</a>
+        <a href="">Shop</a>
+        <a href="">Contact</a>
+    </div>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <img src="./images/logo.png" alt="">
+    <h6 class="ml-4 text-2xl font-semibold text-white">Fruit Burst</h6>
+  </div>
+  <div class="navbar-end">
+    <div class="bg-white hidden lg:flex items-center justify-between px-6 py-3 rounded-full">
+    <input type="text">
+    <img src="./images/Frame.png" alt="">
+    </div>
+  </div>
+</div>
+</div>
+<div class="container mx-auto lg:px-24 px-8">
+    <div class="carousel w-full">
+  <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner1.png')] bg-center bg-cover h-[60vh] flex justify-center items-center">
+    <div class="flex flex-col justify-center">
+      <div class="absolute top-10 right-10 text-white bg-red-400 px-4 py-2 text-center">
+        <h6>Hot Deal!!</h6>
+      </div>
+            <h1 class="text-3xl text-center lg:text-7xl text-white font-bold">Exotic tastes at your doorstep</h1>
+            <p class="text-white w-2/3 text-center mx-auto mt-4">We supply highly quality organic products</p>
+            <button class="btn bg-red-400 text-white border-none mx-auto ">Button</button>
+        </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide2" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner2.png')] bg-center bg-cover h-[60vh] flex justify-center items-center">
+    <div class="flex flex-col justify-center">
+            <h1 class="text-7xl text-white font-bold">Exotic tastes at your doorstep</h1>
+            <p class="text-white w-2/3 text-center mx-auto mt-4">We supply highly quality organic products</p>
+            <button class="btn bg-red-400 text-white border-none mx-auto ">Button</button>
+        </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 bottom-0 right-10 space-x-4">
+        
+      <a href="#slide1" class="btn btn-circle">❮</a> 
+      <a href="#slide3" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner3.png')] bg-center bg-cover h-[60vh] flex justify-center items-center">
+    <div class="flex flex-col justify-center">
+            <h1 class="text-7xl text-white font-bold">Exotic tastes at your doorstep</h1>
+            <p class="text-white w-2/3 text-center mx-auto mt-4">We supply highly quality organic products</p>
+            <button class="btn bg-red-400 text-white border-none mx-auto ">Button</button>
+        </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        
+      <a href="#slide3" class="btn btn-circle">❮</a> 
+      <a href="#slide4" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+  <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner4.png')]  bg-center bg-cover h-[60vh] flex justify-center items-center">
+    <div class="flex flex-col justify-center">
+            <h1 class="text-7xl text-white font-bold">Exotic tastes at your doorstep</h1>
+            <p class="text-white w-2/3 text-center mx-auto mt-4">We supply highly quality organic products</p>
+            <button class="btn bg-red-400 text-white border-none mx-auto ">Button</button>
+        </div>
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+        
+      <a href="#slide4" class="btn btn-circle">❮</a> 
+      <a href="#slide1" class="btn btn-circle">❯</a>
+    </div>
+  </div> 
+</div>
+<div class="h-[20vh] w-2/3 mx-auto bg-white shadow-lg rounded-lg -translate-y-24 hidden lg:flex items-center justify-center">
+    <div class="flex items-center justify-around space-x-4">
+      <img src="./images/fruit1.png" alt="">
+      <img src="./images/fruit2.png" alt="">
+      <img src="./images/fruit3.png" alt="">
+      <img src="./images/fruit4.png" alt="">
+      <img src="./images/fruit5.png" alt="">
+    </div>
+</div>
+</div>
+<main>
+  <section class="my-24 py-24 container lg:px-24 px-8 mx-auto">
+    <div class="flex flex-col lg:flex-row justify-between items-center gap-5">
+      <div class="text">
+        <h1 class="text-4xl font-bold mb-2">Deal of the Day!</h1>
+        <p class="lg:w-2/3 text-lg opacity-35">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste quas, eos culpa quibusdam ipsum dolores a officiis laborum aut dignissimos ullam! Non beatae recusandae quisquam minus eum, aperiam qui id.</p>
+      </div>
+      <div class="timer">
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+  <div class="flex flex-col">
+    <span class="countdown font-mono text-5xl">
+      <span style="--value:15;"></span>
+    </span>
+    days
+  </div> 
+  <div class="flex flex-col">
+    <span class="countdown font-mono text-5xl">
+      <span style="--value:10;"></span>
+    </span>
+    hours
+  </div> 
+  <div class="flex flex-col">
+    <span class="countdown font-mono text-5xl">
+      <span style="--value:24;"></span>
+    </span>
+    min
+  </div> 
+  <div class="flex flex-col">
+    <span class="countdown font-mono text-5xl">
+      <span style="--value:52;"></span>
+    </span>
+    sec
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="mt-28 grid grid-cols-1 lg:grid-cols-4 gap-6">
+      <div class="border-2 space-y-4 flex flex-col items-center justify-center px-4 py-6 rounded-md">
+        <img src="./images/fruit6.png" alt="">
+        <h6>$12.99-$18.00</h6>
+        <hr class="border-2 w-2/3 ">
+        <p>Apple</p>
+        <div>
+          <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+</div>
+      <button class="btn btn-ghost text-red-400 mt-3">Ghost</button>
+        
+      </div>
+      <div class="border-2 space-y-4 flex flex-col items-center justify-center px-4 py-6 rounded-md">
+        <img src="./images/fruit6.png" alt="">
+        <h6>$12.99-$18.00</h6>
+        <hr class="border-2 w-2/3 ">
+        <p>Apple</p>
+        <div>
+          <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+</div>
+      <button class="btn btn-ghost text-red-400 mt-3">Ghost</button>
+        
+      </div>
+      <div class="border-2 space-y-4 flex flex-col items-center justify-center px-4 py-6 rounded-md">
+        <img src="./images/fruit6.png" alt="">
+        <h6>$12.99-$18.00</h6>
+        <hr class="border-2 w-2/3 ">
+        <p>Apple</p>
+        <div>
+          <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+</div>
+      <button class="btn btn-ghost text-red-400 mt-3">Ghost</button>
+        
+      </div>
+      <div class="border-2 space-y-4 flex flex-col items-center justify-center px-4 py-6 rounded-md">
+        <img src="./images/fruit6.png" alt="">
+        <h6>$12.99-$18.00</h6>
+        <hr class="border-2 w-2/3 ">
+        <p>Apple</p>
+        <div>
+          <div class="rating">
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+  <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+</div>
+</div>
+      <button class="btn btn-ghost text-red-400 mt-3">Ghost</button>
+        
+      </div>
+    </div>
+  </section>
+  <section class="my-48">
+    <div class="container lg:px-24 px-8 mx-auto text-white ">
+      <div class="h-[70vh] rounded-xl flex flex-col justify-center items-center text-center w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./images/banner1.png')] bg-center bg-cover">
+        <h1>Meet the team</h1>
+        <p class="w-2/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aliquam nihil illo non aliquid earum quas architecto, vitae, asperiores, necessitatibus possimus illum quaerat ratione error!</p>
+        <div class="grid grid-cols-4 gap-4">
+          <div class="h-24 ">
+            <img src="./images/member1.png" alt="">
+            <h2>Altaf Hossain</h2>
+            <p>Abhi Poresh LTD!</p>
+          </div>
+          <div class="h-24 bg-slate-300">
+            
+          </div>
+          <div class="h-24 bg-slate-300">
+            
+          </div>
+          <div class="h-24 bg-slate-300">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-48">
+    <div class="container lg:px-24 px-8 mx-auto text-black ">
+      <h1 class="text-center text-5xl">Why Choose Us </h1>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit amet molestias libero unde, ad laborum sit quis neque eius culpa dolore, quisquam iste tempore.</p>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-24">
+        <div>
+          <div class="flex">
+            <div class="h-12 w-12 rounded-full bg-slate-200 flex justify-center items-center">
+              <img src="./images/group 1.jpg" alt="">
+            </div>
+            <div>
+              <h3>Dedicated Team</h3>
+              <div class="divider"></div>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex">
+            <div class="h-12 w-12 rounded-full bg-slate-200 flex justify-center items-center">
+              <img src="./images/group 1.jpg" alt="">
+            </div>
+            <div>
+              <h3>Dedicated Team</h3>
+              <div class="divider"></div>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex">
+            <div class="h-12 w-12 rounded-full bg-slate-200 flex justify-center items-center">
+              <img src="./images/group 1.jpg" alt="">
+            </div>
+            <div>
+              <h3>Dedicated Team</h3>
+              <div class="divider"></div>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./images/whychoose1.png" alt="">
+        </div>
+        <div>
+          text
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mx-auto px-24">
+      <div class="grid grid-cols-1 lg:grid-cols-3">
+        <div clas="grid gap-6 col-span-2">
+          
+          <input type="text" class="input input-bordered w-full" placeholder="Type Here">
+          <input type="text" class="input input-bordered w-full" placeholder="Type Here">
+        </div>
+        <div></div>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
