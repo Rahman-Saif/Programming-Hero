@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Person Introduction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Person Introduction</h1>
+
+  <form id="personForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <label for="age">Age:</label>
+    <input type="number" id="age" required>
+    <button type="button" onclick="createPerson()">Create Person</button>
+  </form>
+
+  <div id="output"></div>
+
+  <script>
+    class Person{
+      constructor(name,age){
+        this.name=name;
+        this.age=age;
+      }
+
+      introduction(){
+        return `hi!My name is ${this.name}`;
+      }
+    }
+
+    function createPerson(){
+      const nameInput=document.getElementById('name');
+      const ageInput=document.getElementById('age');
+      const outputDiv=document.getElementById('output');
+
+      const name=nameInput.value;
+      const age=parseInt(ageInput,10);
+
+      if(age && !isNan(age)){
+        const person=new Person(name,age);
+        const intro=person.introduction();
+      }
+
+      outputDiv.innerHTML=`<p>${introduction} </p>`
+    }
+  </script>
+</body>
+</html>
