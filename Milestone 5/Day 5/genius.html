@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="m-4">
+    <header>
+
+    </header>
+    <main>
+        <div class="flex flex-col lg:flex-row">
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="/triangle.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Triangle</h2>
+    <p class="text-center">Area=0.5*B*H</p>
+    <div>
+        <input id="triangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
+    <span class="mr-4 ml-2">cm</span>
+    <input id="triangle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+    <span>cm</span>
+    </div>
+    <div class="card-actions ">
+      <button onclick="calculateTriangle()" class="btn btn-primary w-full">Calculate</button>
+    </div>
+    <div>
+        <p class="text-2xl">Area:<span id="triangle-area"></span><span>cm <sup>2</sup></span></p>
+    </div>
+  </div>
+</div>
+<div class="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="/triangle.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Triangle</h2>
+    <p class="text-center">Area=0.5*B*H</p>
+    <div>
+        <input id="triangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
+    <span class="mr-4 ml-2">cm</span>
+    <input id="triangle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+    <span>cm</span>
+    </div>
+    <div class="card-actions ">
+      <button onclick="calculateTriangle()" class="btn btn-primary w-full">Calculate</button>
+    </div>
+    <div>
+        <p class="text-2xl">Area:<span id="triangle-area"></span><span>cm <sup>2</sup></span></p>
+    </div>
+  </div>
+</div>
+<div class="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="/rectangle.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Rectangle</h2>
+    <p class="text-center">Area=B*H</p>
+    <div>
+        <input id="rectangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
+    <span class="mr-4 ml-2">cm</span>
+    <input id="rectangle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+    <span>cm</span>
+    </div>
+    <div class="card-actions ">
+      <button onclick="calculateRectangle()" class="btn btn-primary w-full">Calculate</button>
+    </div>
+    <div>
+        <p class="text-2xl">Area:<span id="rectangle-area"></span><span>cm <sup>2</sup></span></p>
+    </div>
+  </div>
+</div>
+<div class="card card-compact w-96 bg-base-100 shadow-xl">
+  <figure><img src="/triangle.png" alt="Shoes" /></figure>
+  <div class="card-body">
+    <h2 class="card-title">Triangle</h2>
+    <p class="text-center">Area=0.5*B*H</p>
+    <div>
+        <input id="triangle-base" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="b">
+    <span class="mr-4 ml-2">cm</span>
+    <input id="triangle-height" class="w-24 text-2xl p-2 rounded-sm" type="text" placeholder="h">
+    <span>cm</span>
+    </div>
+    <div class="card-actions ">
+      <button onclick="calculateTriangle()" class="btn btn-primary w-full">Calculate</button>
+    </div>
+    <div>
+        <p class="text-2xl">Area:<span id="triangle-area"></span><span>cm <sup>2</sup></span></p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+    </main>
+    <script src="genius.js"></script>
+</body>
+</html>

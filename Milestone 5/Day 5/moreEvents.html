@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Explore more Events!</h1>
+    <button id="btn-more">Click</button>
+    <input type="text" id="input">
+
+    <script>
+        document.querySelector("#input").addEventListener("keyup",function(){
+            console.log(event.target.value);
+        })
+        document.querySelector("#btn-more").addEventListener("click",function(){
+            console.log("ei to mama click korsi!");
+        })
+    </script>
+</body>
+</html>
