@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="webt2.css">
+</head>
+<body>
+    <main>
+    <h1>Travel Reservation Form</h1>
+    <h3>* denotes mandatory</h3>
+    <form action="">
+        <section>
+        <label for="first_name">First Name*:</label>
+        <br>
+        <input class="text" type="text" name="first_name" placeholder="FirstName LastName">
+        <br>
+        </section>
+        <section>
+        <label for="email_add">Email address*:</label>
+        <br>
+        <input type="text" class="text" name="email_add" placeholder="EMAIL_ADDRESS">
+        <br>
+        </section>
+        <section>
+        <label for="selecting_tour">Select Tour Package*:</label>
+        <br>
+        <select name="dropdown" id="" class="area">
+            <option value="Goa" selected>Goa</option>
+            <option value="Dhaka">Dhaka</option>
+            <option value="Barishal">Barishal</option>
+            <option value="Naogaon">Naogaon</option>
+        </select>
+        <br>
+        </section>
+        <section>
+        <label for="arrival_date">Arrival date*:</label>
+        <br>
+        <input type="date" class="dates">
+        <br>
+        </section>
+        <section>
+        <label for="number_person">Number of persons*:</label>
+        <br>
+        <input type="text" class="text" name="number_person" placeholder="Unkown_Type">
+        <br>
+        </section>
+        <section>
+        <label for="activities">What would you want to avail?*</label>
+        <br>
+        Boarding<input type="checkbox" value="Boarding"><br>
+        Fooding<input type="checkbox" name="" id=""><br>
+        Sight Seeing<input type="checkbox" name="" id=""><br>
+        </section>
+        <section>
+        <label for="discount">Discount Coupon Code:</label>
+        <br>
+        <input type="text" placeholder="UNKOWN_TYPE" class="text" name="discount">
+        <br>
+        </section>
+        <section>
+        <label for="tnc">Ternms and conditions*</label><br>
+        <input type="radio" name="tnc" id="">I agree <input type="radio" name="tnc" id="">I disagree <br>
+        </section>
+        <section>
+        <input type="button" value="Complete Reservation" class="b">
+        </section>
+    </form>
+</main>
+</body>
+</html>
